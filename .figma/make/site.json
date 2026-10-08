@@ -1,0 +1,10 @@
+{
+  "description": "Create engaging animated presentations with images, tailored for presenters like James, Tony, Ambrose, and Maryanne to enhance audience engagement.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
