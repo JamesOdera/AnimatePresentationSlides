@@ -20,7 +20,7 @@ export type Slide = {
   eyebrow: string;
   title: string;
   kind: SlideKind;
-  presenter: "James" | "Tony" | "Ambrose" | "Maryanne";
+  presenter: "James" | "Antony" | "Ambrose" | "Maryanne";
   notes: string;
   body?: string;
   items?: string[];
@@ -89,7 +89,7 @@ export const slides: Slide[] = [
     eyebrow: "03 · Realize+",
     title: "From strategy to outcomes—with less manual work",
     kind: "loop",
-    presenter: "Tony",
+    presenter: "Antony",
     items: ["Strategy", "Implementation", "Outcomes", "Optimization"],
     body:
       "Machine learning finds and converts consumers through work humans miss—or cannot do efficiently.",
@@ -101,7 +101,7 @@ export const slides: Slide[] = [
     eyebrow: "04 · Architecture",
     title: "Two working parts. Distinct jobs.",
     kind: "engines",
-    presenter: "Tony",
+    presenter: "Antony",
     items: [
       "DECISION ENGINE|Moves budgets in real time to the highest-performing campaigns and opportunities.|Budget Allocator",
       "ELEMENT GENERATOR|Continuously improves ads and targeting without manual updates.|Ads + targeting",
@@ -115,7 +115,7 @@ export const slides: Slide[] = [
     eyebrow: "The practitioner view",
     title: "The hardest move happens in real time",
     kind: "quote",
-    presenter: "Tony",
+    presenter: "Antony",
     quote:
       "“Allocating budgets across campaigns in real time is one of the biggest challenges in performance marketing.”",
     attribution: [
@@ -131,7 +131,7 @@ export const slides: Slide[] = [
     eyebrow: "05 · Roadmap",
     title: "From beta to Phase 2",
     kind: "timeline",
-    presenter: "Tony",
+    presenter: "Antony",
     items: [
       "BETA|Several months|Positive feedback",
       "PHASE 2|Q2|Improved models",
@@ -294,4 +294,4 @@ export const slides: Slide[] = [
   },
 ];
 
-export const presenters = ["James", "Tony", "Ambrose", "Maryanne"] as const;
+export const presenters = ["James", "Antony", "Ambrose", "Maryanne"] as const;
